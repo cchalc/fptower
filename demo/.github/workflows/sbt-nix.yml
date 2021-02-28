@@ -30,4 +30,4 @@ jobs:
           signingKey: "${{ secrets.CACHIX_SIGNING_KEY }}"
 
       - name: "Build sbt derivation with ${{ matrix.java }} 🚀"
-        run: nix-build --argstr jdk "${{ matrix.java }}" nix/sbt.nix | cachix push neutron
+        run: nix-build --argstr jdk "${{ matrix.java }}" nix/sbt.nix | cachix push cchalc-fptower
