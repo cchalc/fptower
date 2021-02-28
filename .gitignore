@@ -1,1 +1,4 @@
 demo/result-base-jre
+project/target/
+target/
+result*
